@@ -22,7 +22,7 @@ console.log(testStringLen.length)
  */
 
 let testStringLast = 'testString1234f'
-let lastChar = testStringLast.slice(-1)
+let lastChar = testStringLast.at(-1)
 console.log(lastChar)
 
 /*
