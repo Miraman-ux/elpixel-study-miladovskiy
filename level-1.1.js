@@ -44,9 +44,9 @@ let testString1 = 'testString'
 let testString2 = 'testString2'
 
 let firstChar1 = testString1[0].toLowerCase()
-let secondChar1 = testString1[0].toLowerCase()
+let firstChar2 = testString2[0].toLowerCase()
 
-if (firstChar1 === secondChar1) {
+if (firstChar1 === firstChar2) {
     console.log("Match")
 }else {
     console.log("NotMatch")
