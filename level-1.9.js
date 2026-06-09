@@ -11,9 +11,9 @@ const task1Array = [
     'just-text'
 ];
 
-const task1FiltredArray = task1Array.filter(link => link.startsWith('http://'))
+const task1FiltredArray = task1Array.filter(link => link.startsWith('http://'));
 
-console.log(task1FiltredArray)
+console.log(task1FiltredArray);
 
 /*
 №2 Дан массив со строками. Оставьте в этом массиве только те строки,
@@ -28,8 +28,8 @@ const task2Array = [
     'just-text'
 ];
 
-const task2FiltredArray = task2Array.filter(link => link.endsWith('.html'))
-console.log(task2FiltredArray)
+const task2FiltredArray = task2Array.filter(link => link.endsWith('.html'));
+console.log(task2FiltredArray);
 
 /*
 №3 Дан массив с числами. Увеличьте каждое число из массива на 10 процентов.
@@ -38,6 +38,6 @@ console.log(task2FiltredArray)
 const task3Array = [4, 8, 15, 16, 23, 42];
 
 for (let i = 0; i < task3Array.length; i++) {
-    task3Array[i] *= 1.1
+    task3Array[i] *= 1.1;
 }
-console.log(task3Array)
+console.log(task3Array);
