@@ -19,12 +19,12 @@ function getRandomWordByLetter(wordsArray, letter) {
     return filteredWords[randomIndex];
 }
 
-let techWords = ["array, function, variable, module, index, object, loop, method"];
+let techWords = ["array", "function", "variable", "module", "index", "object", "loop", "method"];
 
 
 console.log("Random word starting with 'm':", getRandomWordByLetter(techWords, "m"));
 
-console.log("Random word starting with 'm':", getRandomWordByLetter(techWords, "a"));
+console.log("Random word starting with 'a':", getRandomWordByLetter(techWords, "a"));
 
 
 /*
