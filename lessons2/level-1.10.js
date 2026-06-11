@@ -6,8 +6,8 @@ const task1Array = [];
 const arrayLength = 6;
 
 for (let i = 0; i < arrayLength; i++) {
-    const randomNumer = Math.floor(Math.random() * 100 ) + 1;
-    task1Array.push(randomNumer);
+    const randomNumber = Math.floor(Math.random() * 100 ) + 1;
+    task1Array.push(randomNumber);
 }
 
 console.log(task1Array);
