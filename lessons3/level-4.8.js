@@ -19,7 +19,7 @@ console.log(getRandomNumberFromArray(task1testArray1));
  */
 
 function getRandomNumbersFromArray(task2Array, N){
-    let result = [];
+    const result = [];
 
     for (let i = 0; i < N; i++) {
         let randomIndex = Math.floor(Math.random() * task2Array.length);
@@ -108,7 +108,7 @@ console.log(getSum(5, 6, 3));
  */
 
 function fillArrayWithRandom(n, min, max){
-    let result = [];
+    const result = [];
 
     for (let i = 0; i < n; i++) {
         let newNum;
@@ -136,7 +136,7 @@ function fillArrayWithUniqueRandom(n, min, max){
         return [];
     }
 
-    let result = [];
+    const result = [];
 
     while (result.length < n){
         let newNum = Math.floor(Math.random() * (max - min + 1)) + min;

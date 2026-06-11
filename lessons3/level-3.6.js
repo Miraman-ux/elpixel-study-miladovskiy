@@ -2,7 +2,7 @@
 №1 Дан массив со числами. Удалите из него числа, состоящие более чем из трех цифр.
  */
 
-let task1Arr = [1, 2 ,456, 3355, 23, 15];
+const task1Arr = [1, 2 ,456, 3355, 23, 15];
 
 for (let i = task1Arr.length - 1; i >= 0 ; i--) {
     if (task1Arr[i].toString().length > 3){
