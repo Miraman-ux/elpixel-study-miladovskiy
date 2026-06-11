@@ -22,7 +22,7 @@ console.log(orderWordsAlphabet(testString));
  */
 
 function getCommonElements(array1, array2) {
-    let task2Result = [];
+    const task2Result = [];
 
     for (let i = 0; i < array1.length; i++) {
         let currentElement = array1[i];
@@ -35,8 +35,8 @@ function getCommonElements(array1, array2) {
     return task2Result;
 }
 
-let array1 = [1, 2, 3, 4, 5, 2];
-let array2 = [2, 5, 6, 7, 1, 2];
+const array1 = [1, 2, 3, 4, 5, 2];
+const array2 = [2, 5, 6, 7, 1, 2];
 console.log(getCommonElements(array1, array2));
 
 

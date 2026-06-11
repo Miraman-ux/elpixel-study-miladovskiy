@@ -67,7 +67,7 @@ let nextMaslenitsa = getNextMaslenitsa();
 
 let options = { year: 'numeric', month: 'long', day: 'numeric' };
 
-console.log(`According to the problem, the next Maslenitsa will be: ${nextMaslenitsa.toLocaleDateString('ru-RU', options)}`);
+console.log(`According to the problem, the next Maslenitsa will be: ${nextMaslenitsa.toLocaleDateString(options)}`);
 
 
 /*
