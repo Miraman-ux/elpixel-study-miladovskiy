@@ -19,7 +19,7 @@ console.log(task1Arr);
 
 let num = 12345;
 
-let task2Arr = num.toString().split('');
+let task2Arr = num.toString();
 let task2Flag = true;
 
 for (let i = 0; i < task2Arr.length; i++) {
