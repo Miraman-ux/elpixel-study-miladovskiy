@@ -17,7 +17,7 @@ for (let i = 10; i <= 1000 ; i++) {
 
 const task2Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
 
-for (let i = task2Array.length - 2; i >= 0; i--) {
+for (let i = task2Array.length - 1; i >= 0; i--) {
     if((i + 1) % 5 === 0){
         task2Array.splice(i, 1);
     }
