@@ -21,7 +21,7 @@ for (let i = 0; i < task2String.length; i++) {
     }
 
     if(countZero === 3){
-        thirdPosition = 3;
+        thirdPosition = i;
         break;
     }
 }
