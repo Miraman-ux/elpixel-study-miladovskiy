@@ -18,7 +18,7 @@ console.log(task1Array);
  */
 
 let task2Number = 12345;
-let task2String = task2Number.toString().split("");
+let task2String = task2Number.toString();
 const task2Array = [];
 
 for (let i = 0; i < task2String.length; i++) {
