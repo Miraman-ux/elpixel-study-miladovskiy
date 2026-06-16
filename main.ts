@@ -1,0 +1,32 @@
+import {Warrior} from "./src/warrior.js";
+import {Mage} from "./src/mage.js";
+import {Archer} from "./src/archer.js";
+
+const wraithKing = new Warrior('Папич', 50);
+const darkWillow = new Mage('Вилка');
+const mirana = new Archer('Мирана', 15);
+console.groupEnd();
+
+console.group('ПАПИЧ');
+wraithKing.takeDamage(90);
+wraithKing.heal(30);
+wraithKing.levelUp();
+console.groupEnd();
+
+console.group('МИРАНА');
+mirana.shoot();
+mirana.levelUp();
+mirana.restockArrows(5);
+console.groupEnd();
+
+console.group('ВИЛКА');
+darkWillow.castSpell(65, 'реалм');
+darkWillow.castSpell(70, 'бедлам');
+darkWillow.levelUp();
+darkWillow.castSpell(65, 'реалм');
+console.groupEnd();
+
+console.group('Ошибки');
+wraithKing.name = '';
+darkWillow.health = 400;
+console.groupEnd();
