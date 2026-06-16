@@ -55,8 +55,13 @@ export abstract class Hero implements ICharacter {
             return;
         }
 
-        this.health += amount;
-        console.log(`[Лечение]: ${this.name} исцелил ${amount} едениц ХП. Текущее ХП ${this.health}`);
+        const newHealth = Math.min(this.health + amount, 100);
+
+        const actualHeal = newHealth - this.health;
+
+        this.health = newHealth;
+
+        console.log(`[Лечение]: ${this.name} исцелил ${actualHeal} единиц ХП. Текущее ХП ${this.health}`);
     }
 
     public levelUp(): void{

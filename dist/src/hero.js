@@ -44,8 +44,10 @@ export class Hero {
             console.log(`[Лечение]: ${this.name} полностью здоров можно идти фармить лес`);
             return;
         }
-        this.health += amount;
-        console.log(`[Лечение]: ${this.name} исцелил ${amount} едениц ХП. Текущее ХП ${this.health}`);
+        const newHealth = Math.min(this.health + amount, 100);
+        const actualHeal = newHealth - this.health;
+        this.health = newHealth;
+        console.log(`[Лечение]: ${this.name} исцелил ${actualHeal} единиц ХП. Текущее ХП ${this.health}`);
     }
     levelUp() {
         this._level += 1;

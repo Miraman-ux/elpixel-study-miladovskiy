@@ -15,7 +15,7 @@ mirana.shoot();
 mirana.levelUp();
 mirana.restockArrows(5);
 console.groupEnd();
-console.group('ВИЛКАЧНОСТЬ');
+console.group('ВИЛКА');
 darkWillow.castSpell(65, 'реалм');
 darkWillow.castSpell(70, 'бедлам');
 darkWillow.levelUp();
