@@ -8,7 +8,11 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true
   },
   "include": ["main.ts", "src/**/*"]
 }

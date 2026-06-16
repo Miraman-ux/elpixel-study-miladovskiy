@@ -23,3 +23,4 @@ export class Mage extends Hero {
         console.log(`Мана полностью восстановлена: ${this._mana}`);
     }
 }
+//# sourceMappingURL=mage.js.map

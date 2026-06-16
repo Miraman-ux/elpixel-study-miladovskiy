@@ -55,3 +55,4 @@ export class Hero {
         console.log(`${this.name} получил ${this._level} уровень. Здоровье полностью восстановлено.`);
     }
 }
+//# sourceMappingURL=hero.js.map

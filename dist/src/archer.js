@@ -22,3 +22,4 @@ export class Archer extends Hero {
         }
     }
 }
+//# sourceMappingURL=archer.js.map

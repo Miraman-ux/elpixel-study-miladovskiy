@@ -21,3 +21,4 @@ export class Warrior extends Hero {
         super.takeDamage(finalDamage);
     }
 }
+//# sourceMappingURL=warrior.js.map

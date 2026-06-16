@@ -25,3 +25,4 @@ console.group('Ошибки');
 wraithKing.name = '';
 darkWillow.health = 400;
 console.groupEnd();
+//# sourceMappingURL=main.js.map
